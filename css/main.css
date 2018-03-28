@@ -119,6 +119,8 @@ header {
       background: #ff8d00; }
   .header-content .for-conversion {
     margin-top: 32px;
+    position: relative;
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -129,6 +131,8 @@ header {
     color: #ffffff; }
   .header-content .calc-btn {
     margin-top: 50px;
+    position: relative;
+    display: inline-block;
     padding: 34px 40px;
     font-family: Raleway, sans-serif;
     font-size: 31px;
@@ -605,21 +609,18 @@ footer {
       line-height: 1.2;
       color: #ffffff; }
 
-/*.popup__thanks {*/
-  /*width: 100%;*/
-  /*height: 100%;*/
-  /*position: relative;*/
-  /*margin: 0 auto;*/
-  /*text-align: center;*/
-  /*background: #000;*/
-  /*z-index: 100; }*/
+.popup__thanks {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  background: #000;
+  z-index: 100; }
 
 .popup__thanks--inner {
   width: 300px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
